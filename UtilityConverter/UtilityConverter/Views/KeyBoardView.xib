@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KeyBoardView" customModule="UtilityConverter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="WXu-qg-TSe">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="D4F-VE-k5g">
+                            <rect key="frame" x="0.0" y="0.0" width="400" height="63.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKh-VK-dlG" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="130" height="63.5"/>
+                                    <state key="normal" title="1"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whe-ME-U6i" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="135" y="0.0" width="130" height="63.5"/>
+                                    <state key="normal" title="2"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pN2-5o-Snh" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="270" y="0.0" width="130" height="63.5"/>
+                                    <state key="normal" title="3"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="F3I-Pc-hLg">
+                            <rect key="frame" x="0.0" y="68.5" width="400" height="63"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFA-Nb-n6K" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="130" height="63"/>
+                                    <state key="normal" title="4"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5b-Fl-OQH" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="135" y="0.0" width="130" height="63"/>
+                                    <state key="normal" title="5"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIE-Fw-EEZ" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="270" y="0.0" width="130" height="63"/>
+                                    <state key="normal" title="6"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MRZ-tY-vE9">
+                            <rect key="frame" x="0.0" y="136.5" width="400" height="63.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYS-bG-8MV" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="130" height="63.5"/>
+                                    <state key="normal" title="7"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foz-8t-hre" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                    <rect key="frame" x="135" y="0.0" width="130" height="63.5"/>
+                                    <state key="normal" title="8"/>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vsF-66-Lnk">
+                                    <rect key="frame" x="270" y="0.0" width="130" height="63.5"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2J-ql-MYR" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="130" height="29.5"/>
+                                            <state key="normal" image="delete"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUP-EC-0B3" customClass="CustomUIButton" customModule="UtilityConverter" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="34.5" width="130" height="29"/>
+                                            <state key="normal" title="NEG"/>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WXu-qg-TSe" secondAttribute="trailing" id="1pz-xH-54E"/>
+                <constraint firstItem="WXu-qg-TSe" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Aia-5O-cfk"/>
+                <constraint firstItem="WXu-qg-TSe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="GWs-Bs-s27"/>
+                <constraint firstItem="WXu-qg-TSe" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="hXK-5t-m5J"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="delete" width="45" height="25"/>
+    </resources>
+</document>

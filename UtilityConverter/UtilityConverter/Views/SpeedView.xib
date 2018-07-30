@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SpeedView" customModule="UtilityConverter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="metres/sec" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbR-WB-oXk">
+                    <rect key="frame" x="20" y="40" width="86" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="km/hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeL-8f-TKf">
+                    <rect key="frame" x="20" y="81" width="64" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="miles/hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udj-df-CNg">
+                    <rect key="frame" x="20" y="122" width="81" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6cV-YW-xGi">
+                    <rect key="frame" x="116" y="35.5" width="249" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FM1-vh-mqX">
+                    <rect key="frame" x="116" y="76.5" width="249" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ngj-oc-e9m">
+                    <rect key="frame" x="116" y="117.5" width="249" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fbR-WB-oXk" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="5zM-de-sHs"/>
+                <constraint firstItem="fbR-WB-oXk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="I3W-iL-4tj"/>
+                <constraint firstItem="FM1-vh-mqX" firstAttribute="trailing" secondItem="6cV-YW-xGi" secondAttribute="trailing" id="L5n-8H-mF0"/>
+                <constraint firstItem="CeL-8f-TKf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Trd-x0-b6o"/>
+                <constraint firstItem="CeL-8f-TKf" firstAttribute="top" secondItem="fbR-WB-oXk" secondAttribute="bottom" constant="20" id="UZ8-u2-neY"/>
+                <constraint firstItem="FM1-vh-mqX" firstAttribute="centerY" secondItem="CeL-8f-TKf" secondAttribute="centerY" id="VsT-gY-qIU"/>
+                <constraint firstItem="FM1-vh-mqX" firstAttribute="leading" secondItem="6cV-YW-xGi" secondAttribute="leading" id="bPQ-2Y-QJ6"/>
+                <constraint firstItem="udj-df-CNg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="cD7-cw-eiQ"/>
+                <constraint firstItem="Ngj-oc-e9m" firstAttribute="centerY" secondItem="udj-df-CNg" secondAttribute="centerY" id="gza-7z-rEV"/>
+                <constraint firstItem="6cV-YW-xGi" firstAttribute="centerY" secondItem="fbR-WB-oXk" secondAttribute="centerY" id="kNc-S9-hHP"/>
+                <constraint firstItem="Ngj-oc-e9m" firstAttribute="leading" secondItem="FM1-vh-mqX" secondAttribute="leading" id="nqG-FJ-lhm"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6cV-YW-xGi" secondAttribute="trailing" constant="10" id="szi-J5-rub"/>
+                <constraint firstItem="udj-df-CNg" firstAttribute="top" secondItem="CeL-8f-TKf" secondAttribute="bottom" constant="20" id="x7c-3Q-6Q9"/>
+                <constraint firstItem="Ngj-oc-e9m" firstAttribute="trailing" secondItem="FM1-vh-mqX" secondAttribute="trailing" id="xrm-IW-p0M"/>
+                <constraint firstItem="6cV-YW-xGi" firstAttribute="leading" secondItem="fbR-WB-oXk" secondAttribute="trailing" constant="10" id="y8U-IE-5Vm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="kmTextField" destination="FM1-vh-mqX" id="6vR-My-FG1"/>
+                <outlet property="meterTextField" destination="6cV-YW-xGi" id="Ke4-DR-qaH"/>
+                <outlet property="milesTextField" destination="Ngj-oc-e9m" id="Ssz-7R-4hN"/>
+            </connections>
+        </view>
+    </objects>
+</document>
